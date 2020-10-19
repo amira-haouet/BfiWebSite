@@ -1,0 +1,278 @@
+
+header
+{
+    text-align: end;
+    background-color: rgb(255, 255, 255);
+    height: 80px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    width: auto;
+    
+}
+#tete
+{
+    float:right;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+
+#bfi
+{
+    float: left;
+    margin-top: -30px;
+}
+
+nav
+{
+    background-color: rgb(13, 0, 43);
+   height: 110px;
+   color: rgb(255, 255, 255);
+   font-size: larger;
+}
+#container
+
+{
+width: auto;
+height: 300px;
+opacity: 0.5;
+}
+#container:hover
+{
+    opacity: 1;
+}
+.carousel-slide{ 
+    width: 50px;
+      height:200px ; }
+h1{
+    color: rgb(250, 246, 250);
+    opacity: 0.4;
+    text-align: center;
+    background-color: rgb(6, 6, 51);
+}
+nav:hover,h1:hover
+{
+    color:  rgb(6, 6, 51);
+    background:linear-gradient(rgb(255, 255, 255),rgb(255, 250, 203),rgb(255, 249, 192));
+opacity: 1;
+
+}
+section
+{
+   
+    background-image: url(travail.jpg);  
+    background-repeat: no-repeat;
+  background-size: 100%;
+       opacity: 0.6;
+        width: 100%;
+  height: 600px;
+ 
+
+}
+
+h3{
+    color: rgb(35, 4, 63);
+}
+section:hover
+{
+    opacity: 1;
+    background-color: rgb(252, 201, 231);
+}
+/*
+div
+{
+    width: 100%;
+    height: 500px;
+    margin-top: +2px;
+background-color: rgb(60, 25, 143);
+
+}*/
+.third
+{
+    float: right;
+    margin-right: 0%;
+}
+
+#africa
+{
+    margin-top: -105px;
+    float: right;
+}
+#africa:hover
+{
+    visibility: hidden;
+}
+
+table
+{
+border-collapse: separate;
+  border-spacing: 20px;
+  text-align: center;
+}
+
+#menu
+{
+    list-style: none;
+    background:linear-gradient(to bottom,rgb(255, 255, 255),rgb(255, 246, 254),rgb(252, 233, 239)) ;
+    height: 150px;
+
+   text-decoration: none;
+   color:rgb(255, 255, 255);
+}
+#menu a
+{
+    font-weight: bold;
+    color: rgb(68, 11, 68);
+    text-decoration: none;
+    border-spacing: 1%;
+    text-shadow:  1px violet;
+}
+a:hover
+{
+    font-size: larger;
+   color:  rgb(6, 6, 51);
+}
+#menu table tr td ul 
+{
+    visibility: hidden;
+}
+#menu table tr td:hover ul 
+{
+    list-style: none;
+    visibility: visible;
+}
+hr
+{
+    color: rgb(78, 2, 78);
+    opacity: 0.5;
+  
+}
+ul 
+{
+    visibility: hidden;
+}
+li:hover
+{
+    opacity: 0.5;
+}
+li
+{
+    text-align: left;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+footer
+{
+    margin-top: -22px;
+    background: linear-gradient( to right,#cabcc1,#ccaaaa,#dab0bf,#e6b3c5,#e2aabd,#eba8be) ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(44, 44, 63);
+ height: 150px;
+    font-weight: bolder;
+    font-weight: lighter;
+}
+#email
+{
+    color:rgb(255, 255, 255);
+
+    background-color: rgb(13, 0, 43);
+    margin-left: 30px;
+    border-radius: 25px;
+        font-size: small;
+    text-align: center;
+    padding: 5px;
+
+    font-weight: bolder;
+
+}
+
+
+ h3
+{
+    color: rgb(124, 7, 7);
+}
+#email:hover
+{
+    background-color: rgb(13, 0, 43);
+color: white;
+}
+#ok
+{
+    background-color: rgb(13, 0, 43);
+    border-radius: 20px 20px 20px 20px ;
+    font-size: small;
+    cursor: pointer;
+text-align: center;
+padding: 5px;
+color:rgb(255, 255, 255);
+font-weight: bolder;
+}
+#ok:hover
+{
+    opacity: 0.7;
+}
+#hrr
+{
+margin-top: 2px;
+height: 3px;
+background:linear-gradient( to right,rgb(18, 0, 26),rgb(73, 5, 68),rgb(121, 7, 115),rgb(210, 63, 230));
+}
+button {
+    border-radius:20px;
+    background-color: rgb(14, 2, 27);
+    color:rgb(255, 255, 255);
+    padding:10px;
+    font-size: small;
+ 
+    }
+    button:hover
+    {
+        cursor: pointer;
+    }
+    p #date
+    {
+        border-radius:20px;
+font-size: small;
+        float: right;
+        font-weight: bold;
+        text-align: center;
+    }
+    p
+    {
+     margin-bottom: right;
+    }
+  
+
+
+ footer p 
+ {
+     font-weight: bolder;
+     color: rgb(56, 3, 78);
+     font-size: large;
+     margin-left: 10px;
+ }
+h3
+{
+    text-align: center;
+
+}
+.carousel-control-next
+{
+margin-right: 300px;
+}
+.carousel-control-prev
+{margin-left: 300px;}
+#container
+{
+    background-color: rgb(224, 203, 243);
+    height: 550px;
+}
+#backtotop
+{
+    margin-right: 10px;
+    margin-top: -40px;
+   float: right;
+    width: 30px;
+    height: 30px;
+  }

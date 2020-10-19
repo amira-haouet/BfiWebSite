@@ -1,0 +1,33 @@
+header
+{
+    background-color: rgb(4, 4, 104);
+ color: white;
+ width: auto;
+ height: 100px;
+
+}
+header img
+{
+   width: 100px;
+   height: 100px;
+   border-radius: 50%;
+   float: left;
+   
+}
+#menudroite
+{
+    float: right;
+    margin-top: -150px;
+}
+table
+{border-spacing: 020px;}
+a , li
+{
+    text-decoration: none;
+list-style: none;
+color: white;
+}
+a hr 
+{
+    width: 100px;
+}
